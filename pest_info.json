@@ -1,0 +1,160 @@
+{
+  "Healthy_plant": {
+    "name": "Healthy Plant",
+    "scientific_name": "No Pest Detected",
+    "severity": "Safe",
+    "severity_label": "Healthy / Low Risk",
+    "affected_crops": "All Agricultural Crops",
+    "description": "The uploaded crop leaf or plant appears healthy with vigorous cellular structure and no visible signs of pest infestation, oviposition, or feeding injury.",
+    "symptoms": [
+      "Uniform vibrant green foliage without curling, spotting, or mottling",
+      "No visible insects, egg masses, honeydew, or larvae on leaf undersides",
+      "Intact leaf margins with zero chewing holes or necrosis",
+      "Strong vascular turgor and normal vegetative growth rate"
+    ],
+    "management_methods": [
+      "No chemical, biological, or corrective pest treatment required at this time",
+      "Continue standard weekly field scouting and sticky trap monitoring to catch early vectors",
+      "Document current vegetative status in crop monitoring log"
+    ],
+    "prevention_methods": [
+      "Maintain balanced nitrogen-phosphorus-potassium (NPK) fertilization and drip irrigation",
+      "Keep field borders and bunds free of weed reservoirs that harbor alternate pests",
+      "Thoroughly inspect incoming nursery seedlings before transplanting into main fields",
+      "Maintain crop rotation with non-host botanical families between growing seasons"
+    ]
+  },
+  "With_Aphid": {
+    "name": "Aphids (Greenfly / Blackfly)",
+    "scientific_name": "Aphis gossypii / Myzus persicae",
+    "severity": "Moderate",
+    "severity_label": "Moderate to High Infestation Risk",
+    "affected_crops": "Cotton, Cucurbits, Solanaceous Crops, Brassicas, Legumes",
+    "description": "Aphids are small, soft-bodied phloem-feeding insects that colonize the undersides of young leaves and tender growing tips. They multiply exponentially via parthenogenesis and transmit destructive plant viruses like Cucumber Mosaic Virus (CMV).",
+    "symptoms": [
+      "Severe downward leaf curling, distortion, and crinkling of growing shoots",
+      "Abundant sticky, glossy honeydew excretions covering upper leaf surfaces",
+      "Secondary black sooty mold fungus proliferating on honeydew deposits",
+      "Stunted internodes, premature leaf senescence, and chlorotic yellowing"
+    ],
+    "management_methods": [
+      "Apply forceful water jets or pressurized overhead irrigation to dislodge initial colonies",
+      "Spray cold-pressed Neem Oil (3-5 ml/L with emulsifier) or agricultural insecticidal soap",
+      "Release biological natural predators including Coccinellid ladybird beetles and Chrysoperla lacewings",
+      "Apply systemic insecticides (e.g., Acetamiprid or Thiamethoxam) only if threshold exceeds 20% infested terminals"
+    ],
+    "prevention_methods": [
+      "Avoid excessive synthetic nitrogen applications which stimulate vulnerable succulent shoots",
+      "Install yellow sticky traps (15-20 traps/acre) at crop canopy level for early detection",
+      "Deploy reflective silver or aluminum plastic mulches to deter alate (winged) migrants",
+      "Eradicate broadleaf reservoir weeds like Solanum nigrum and Amaranthus around field perimeters"
+    ]
+  },
+  "With_Grasshopper": {
+    "name": "Grasshopper / Locust",
+    "scientific_name": "Acrididae / Schistocerca spp.",
+    "severity": "High",
+    "severity_label": "High Chewing & Defoliation Hazard",
+    "affected_crops": "Rice, Maize, Sorghum, Millets, Cotton, Forage Grasses",
+    "description": "Grasshoppers and locusts possess chewing-mandibulate mouthparts capable of consuming extensive vegetative foliage and reproductive structures in short time windows. High population surges can cause total economic crop defoliation.",
+    "symptoms": [
+      "Large, irregular chewing gouges along outer leaf blades, margins, and central veins",
+      "Complete 'skeletonization' or defoliation of leaves with only coarse ribs remaining",
+      "Severed seed heads, clipped panicles, or damaged vegetative apical buds",
+      "Visible active jumping nymphs and adult hoppers along sunny crop borders and field bunds"
+    ],
+    "management_methods": [
+      "Target juvenile hopper bands on field boundaries before wings develop using perimeter barrier sprays",
+      "Spray botanicals such as 5% Neem Seed Kernel Extract (NSKE) as a deterrent antifeedant",
+      "Promote habitat for avian insectivores by setting up bird perches (15-20 per acre)",
+      "Deploy approved microbial biopesticides like Beauveria bassiana or Metarhizium acridum",
+      "Apply contact insecticides (e.g., Chlorpyrifos or Cypermethrin) during severe migratory swarm pressures"
+    ],
+    "prevention_methods": [
+      "Conduct deep summer or post-harvest ploughing of bunds and wasteland to expose egg pods to solarization",
+      "Keep field borders trimmed and weed-free early in the growing season",
+      "Stagger planting times or select early-maturing cultivars to escape regional peak hopper populations",
+      "Construct shallow trenches along field borders to intercept marching nymphal bands"
+    ]
+  },
+  "With_Thrips": {
+    "name": "Thrips (Chilli / Onion Thrips)",
+    "scientific_name": "Scirtothrips dorsalis / Thrips tabaci",
+    "severity": "High",
+    "severity_label": "High Vector & Scarring Hazard",
+    "affected_crops": "Chili, Onion, Garlic, Tomato, Cotton, Capsicum, Flowers",
+    "description": "Thrips are slender, microscopic insects with fringed wings that puncture cell walls and feed on escaping sap. Their rasping feeding behavior causes upward leaf curling and transmits fatal Tospoviruses such as Groundnut Bud Necrosis Virus.",
+    "symptoms": [
+      "Upward leaf curling (leaves resemble miniature inverted boats or canoes)",
+      "Silvery, glistening or bronze-colored scarring on upper and lower foliar surfaces",
+      "Minute black granular tar-like fecal droplets scattered across feeding scars",
+      "Stunted floral buds, blossom drop, and corky, distorted, unmarketable fruit skins"
+    ],
+    "management_methods": [
+      "Install blue sticky traps (25-30 traps/acre), which possess maximum visual chromatic attraction for thrips",
+      "Spray spinosad (0.3 ml/L) or spinetoram targeting active feeding flushes and terminal buds",
+      "Apply horticultural mineral oil or neem formulations to suffocate nymphs and disrupt egg deposition",
+      "Conserve and augment predatory phytoseiid mites (Amblyseius swirskii) and Orius pirate bugs"
+    ],
+    "prevention_methods": [
+      "Utilize UV-reflective metallized plastic mulches to disrupt optical orientation of flying thrips",
+      "Grow 2-3 barrier border rows of tall non-host crops like maize or sorghum around vulnerable fields",
+      "Avoid planting susceptible solanaceous crops adjacent to senescing onion or garlic plots",
+      "Use micro-sprinklers; frequent overhead misting creates microclimates unfavorable for thrips reproduction"
+    ]
+  },
+  "With_Whitefly": {
+    "name": "Whitefly",
+    "scientific_name": "Bemisia tabaci",
+    "severity": "Critical",
+    "severity_label": "Critical Viral Vector & Foliar Risk",
+    "affected_crops": "Cotton, Tomato, Cassava, Cucurbits, Soybean, Okra",
+    "description": "Whiteflies are minute hemipteran sap-sucking pests whose adults resemble tiny white moths. Beyond sapping essential plant photosynthates, Bemisia tabaci is the primary vector of devastating Begomoviruses including Tomato Yellow Leaf Curl Virus (TYLCV) and Cotton Leaf Curl Virus (CLCuV).",
+    "symptoms": [
+      "Chlorotic yellow vein banding, yellow stippling, and general foliar chlorosis",
+      "Explosive clouds of tiny white insects taking flight when crop leaves are gently agitated",
+      "Copious honeydew coating leaves leading to heavy black sooty mold and inhibited photosynthesis",
+      "Leaf cupping, crinkling, stunted terminal shoot elongation, and blossom drop"
+    ],
+    "management_methods": [
+      "Install bright yellow sticky cards or yellow oil pans (20-25/acre) slightly above crop canopy",
+      "Thoroughly spray the undersides of leaves with insecticidal potassium salts of fatty acids or neem oil",
+      "Introduce parasitoid mini-wasps such as Encarsia formosa or Eretmocerus eremicus in enclosed/polyhouse environments",
+      "Apply insect growth regulators (e.g., Pyriproxyfen or Buprofezin) to break the immature nymphal life cycle",
+      "Rotate chemical modes of action (e.g., Spiromesifen or Diafenthiuron) to avoid rapid insecticide resistance"
+    ],
+    "prevention_methods": [
+      "Raise young nursery seedlings under 40-50 mesh insect-proof exclusion netting",
+      "Destroy and plow down crop residues immediately following final harvest to break vector continuity",
+      "Eradicate alternate weed hosts (Abutilon, Xanthium, Parthenium) around agricultural boundaries",
+      "Plant virus-resistant and tolerant crop hybrids validated by agricultural research institutions"
+    ]
+  },
+  "With_bollworm": {
+    "name": "Bollworm / Fruit Borer",
+    "scientific_name": "Helicoverpa armigera / Pectinophora gossypiella",
+    "severity": "Critical",
+    "severity_label": "Critical Economic Damage Hazard",
+    "affected_crops": "Cotton, Tomato, Chickpea, Pigeonpea, Maize, Okra, Capsicum",
+    "description": "Bollworms and pod borers are devastating lepidopteran larvae. Larvae bore directly into reproductive organs including floral squares, cotton bolls, legume pods, and developing fruit flesh, causing irreversible direct commercial losses.",
+    "symptoms": [
+      "Neat circular or oval borehole entries visible on fruits, pods, and bolls",
+      "Prominent moist, granular caterpillar frass (excrement) expelled around entrance tunnels",
+      "Premature flare-up, yellowing, and shedding of squares, flower buds, and young developing fruits",
+      "Rotten fruit interiors and secondary bacterial soft rot entering via caterpillar feeding wounds"
+    ],
+    "management_methods": [
+      "Hand-pick and systematically destroy visibly bored fruits, infested bolls, and older caterpillars",
+      "Install species-specific pheromone traps (5-8 traps/acre) for monitoring moth flights and mass-trapping males",
+      "Spray Helicoverpa armigera Nucleopolyhedrovirus (HaNPV @ 250 LE/acre) during early larval instars",
+      "Apply Bacillus thuringiensis (Bt) kurstaki formulations or Spinosad/Emamectin benzoate at economic thresholds",
+      "Release Trichogramma chilonis egg parasitoid cards (50,000 parasitoids/acre) every 7-10 days"
+    ],
+    "prevention_methods": [
+      "Intercrop with African marigold (1 row of marigold per 10-15 rows of tomato/cotton) as a trap crop",
+      "Perform deep post-harvest soil tilling to invert earth and desiccate overwintering pupae",
+      "Avoid monocropping sequential host legumes and solanaceous crops in adjacent plots",
+      "Plant designated non-Bt refuge crops when cultivating transgenic Bt cotton lines"
+    ]
+  }
+}

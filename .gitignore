@@ -1,0 +1,14 @@
+# Python virtual environments & cache
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Dataset images (keep repository lightweight)
+dataset/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

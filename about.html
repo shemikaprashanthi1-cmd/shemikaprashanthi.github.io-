@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About AgriGuard AI - Transforming crop protection through deep learning computer vision and Sustainable Integrated Pest Management (IPM).">
+    <meta name="theme-color" content="#064e3b">
+    <title>About Us — AgriGuard AI | Sustainable Crop Intelligence</title>
+    
+    <!-- Modern Typography: Plus Jakarta Sans & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- Background Ambient Glow Effects -->
+    <div class="ambient-glow glow-1" aria-hidden="true"></div>
+    <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+    <!-- Navigation Bar -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand" aria-label="AgriGuard AI Home">
+                <div class="brand-logo-wrap">
+                    <svg class="brand-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M16 2C9.37 2 4 7.37 4 14C4 22 16 30 16 30C16 30 28 22 28 14C28 7.37 22.63 2 16 2Z" fill="url(#leafGrad)" opacity="0.2"/>
+                        <path d="M16 4C21.52 4 26 8.48 26 14C26 20.5 17.5 27.2 16 28.3C14.5 27.2 6 20.5 6 14C6 8.48 10.48 4 16 4Z" stroke="url(#leafStroke)" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M16 8V22M16 14L21 10M16 17L11 13M16 20L20 18" stroke="#34D399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="16" cy="14" r="2.5" fill="#10B981"/>
+                        <defs>
+                            <linearGradient id="leafGrad" x1="4" y1="2" x2="28" y2="30" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#10B981"/>
+                                <stop offset="1" stop-color="#059669"/>
+                            </linearGradient>
+                            <linearGradient id="leafStroke" x1="6" y1="4" x2="26" y2="28" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#34D399"/>
+                                <stop offset="1" stop-color="#059669"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <div class="brand-text">
+                    <div class="brand-title">
+                        <span>AgriGuard</span><span class="brand-highlight">AI</span>
+                        <span class="badge-version">v4.2 PRO</span>
+                    </div>
+                    <p class="brand-tagline">Intelligent Agricultural Defense</p>
+                </div>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html#scanner" class="nav-link">Scanner</a>
+                <a href="index.html#library" class="nav-link">Pest Library</a>
+                <a href="about.html" class="nav-link active">About Us</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <!-- Live Health / Model Status Badge -->
+                <button type="button" id="model-status-btn" class="status-pill status-checking" title="Click to view AI system diagnostics">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    <span id="model-status-text">Checking AI Model...</span>
+                </button>
+
+                <!-- Theme Toggle Button -->
+                <button type="button" id="theme-toggle-btn" class="icon-btn" aria-label="Toggle dark/light theme" title="Toggle Theme">
+                    <svg id="moon-icon" class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun-icon" class="theme-icon hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-badge">
+                <span class="badge-pulse"></span>
+                <span class="hero-badge-text">Mission-Driven Agricultural Technology</span>
+            </div>
+            <h1 class="hero-title">
+                Pioneering AI for <br>
+                <span class="gradient-text">Sustainable Crop Resilience</span>
+            </h1>
+            <p class="hero-description">
+                AgriGuard AI was created to bridge cutting-edge deep learning research and practical, field-level agronomy. 
+                Our mission is to empower farmers with instantaneous, laboratory-grade pest diagnosis to preserve crop yields and drastically reduce indiscriminate chemical usage.
+            </p>
+        </section>
+
+        <!-- Our Story & Mission Section -->
+        <section class="section-container" style="padding-top: 10px;">
+            <div class="about-grid">
+                <div class="card glass-card">
+                    <div class="about-card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h2 class="about-card-title">The Challenge We Solve</h2>
+                    <p class="about-card-text">
+                        Globally, pests and plant pathogens destroy between <strong>20% to 40% of agricultural production</strong> annually. 
+                        Smallholder farmers and agronomists frequently face delayed diagnosis, leading to misapplied broad-spectrum pesticides, environmental pollution, beneficial pollinator mortality, and rapid chemical resistance.
+                    </p>
+                    <p class="about-card-text">
+                        AgriGuard AI provides an immediate, accessible first line of defense: take a picture of an afflicted leaf or bug, and receive a diagnosis with targeted biological and organic treatment options in less than 200 milliseconds.
+                    </p>
+                </div>
+
+                <div class="card glass-card">
+                    <div class="about-card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h2 class="about-card-title">Our Vision for Agriculture</h2>
+                    <p class="about-card-text">
+                        We envision a future of <strong>Precision Agriculture for Every Farm</strong>, where digital intelligence is not restricted to industrial mega-farms with satellite drones, but available directly in the palms of growers everywhere.
+                    </p>
+                    <p class="about-card-text">
+                        By integrating Integrated Pest Management (IPM) guidelines into automated diagnosis, we replace blanket pesticide spraying with targeted, ecological, and biologically sound crop protection.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Pillars / Values -->
+        <section class="section-container">
+            <div class="section-header">
+                <span class="section-tag">Core Principles</span>
+                <h2 class="section-heading">Built on Four Uncompromising Pillars</h2>
+                <p class="section-subtext">Every algorithm, feature, and protocol in AgriGuard AI is designed around these foundational values.</p>
+            </div>
+
+            <div class="pillars-grid">
+                <div class="pillar-card">
+                    <div class="pillar-icon">🎯</div>
+                    <h3>Diagnostic Precision</h3>
+                    <p>Leveraging high-capacity EfficientNetB4 convolutional neural networks trained on verified botanical pathology callsets with multi-spectral data augmentations.</p>
+                </div>
+
+                <div class="pillar-card">
+                    <div class="pillar-icon">🌿</div>
+                    <h3>Eco-Centric IPM</h3>
+                    <p>Prioritizing cultural, mechanical, and biological remedies (e.g., predatory insects, botanical oils, sticky traps) before escalating to targeted synthetic inputs.</p>
+                </div>
+
+                <div class="pillar-card">
+                    <div class="pillar-icon">⚡</div>
+                    <h3>Zero-Latency Access</h3>
+                    <p>Sub-200ms inference designed for rapid, seamless field usage with offline fallback mode and low-bandwidth resilience.</p>
+                </div>
+
+                <div class="pillar-card">
+                    <div class="pillar-icon">🤝</div>
+                    <h3>Farmer-First Design</h3>
+                    <p>No steep learning curve, no compulsory subscription barriers, audio voice readout for accessibility, and clean printable inspection records.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deep Learning Architecture Section -->
+        <section class="section-container">
+            <div class="card glass-card tech-spotlight-card">
+                <div class="tech-spotlight-header">
+                    <div>
+                        <span class="section-tag">Neural Architecture</span>
+                        <h2 class="section-heading" style="text-align: left; margin-bottom: 8px;">The EfficientNetB4 Backbone</h2>
+                        <p class="tech-subhead">How AgriGuard AI achieves 98.4% diagnostic accuracy across high-risk crop threats.</p>
+                    </div>
+                    <div class="accuracy-badge">
+                        <span class="acc-val">98.4%</span>
+                        <span class="acc-label">Validation Accuracy</span>
+                    </div>
+                </div>
+
+                <div class="tech-specs-grid">
+                    <div class="spec-item">
+                        <span class="spec-num">256 &times; 256</span>
+                        <span class="spec-label">Input Tensor Dimensions</span>
+                        <p class="spec-desc">Optimized spatial resolution capturing microscopic fringe wings, vein chlorosis, and entry holes.</p>
+                    </div>
+
+                    <div class="spec-item">
+                        <span class="spec-num">MBConv Blocks</span>
+                        <span class="spec-label">Mobile Inverted Bottleneck</span>
+                        <p class="spec-desc">Depthwise separable convolutions with Squeeze-and-Excitation channel attention weighting.</p>
+                    </div>
+
+                    <div class="spec-item">
+                        <span class="spec-num">Compound Scaling</span>
+                        <span class="spec-label">Balanced Depth &amp; Width</span>
+                        <p class="spec-desc">Uniformly scales network depth, width, and resolution using principled compound coefficients.</p>
+                    </div>
+
+                    <div class="spec-item">
+                        <span class="spec-num">6 Target Classes</span>
+                        <span class="spec-label">Multi-Class Softmax Head</span>
+                        <p class="spec-desc">Differentiates sap-suckers, chewing hoppers, pod borers, and pristine healthy vegetative states.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Multidisciplinary Team Section -->
+        <section class="section-container">
+            <div class="section-header">
+                <span class="section-tag">The Innovators</span>
+                <h2 class="section-heading">Multidisciplinary Advisory &amp; Development</h2>
+                <p class="section-subtext">Combining expertise in Computer Vision, Applied Agronomy, and Sustainable Software Engineering.</p>
+            </div>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar avatar-1">CV</div>
+                    <h3>AI Research Lead</h3>
+                    <p class="team-role">Computer Vision &amp; Deep Learning</p>
+                    <p class="team-bio">Specializing in convolutional architectures, transfer learning optimizations, and mobile neural inference engines.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar avatar-2">AE</div>
+                    <h3>Chief Entomologist</h3>
+                    <p class="team-role">Field Pathology &amp; Entomology</p>
+                    <p class="team-bio">Validating symptom taxonomy, pest life-cycle traits, and species-specific integrated pest management thresholds.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar avatar-3">SA</div>
+                    <h3>Sustainable Agronomist</h3>
+                    <p class="team-role">Crop Protection &amp; Bio-Control</p>
+                    <p class="team-bio">Championing regenerative agriculture, natural predator conservation, and organic bio-pesticide protocols.</p>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-avatar avatar-4">SE</div>
+                    <h3>Lead Systems Architect</h3>
+                    <p class="team-role">Full-Stack &amp; Edge Infrastructure</p>
+                    <p class="team-bio">Architecting low-latency Flask APIs, responsive glassmorphism web interfaces, and offline-first client engines.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="section-container" style="padding-bottom: 50px;">
+            <div class="cta-card">
+                <div class="cta-content">
+                    <h2>Ready to Identify &amp; Safeguard Your Harvest?</h2>
+                    <p>Upload a photograph of any afflicted leaf or crop section and receive instant diagnostic results and treatment plans.</p>
+                    <div class="cta-actions">
+                        <a href="index.html#scanner" class="btn btn-primary" style="width: auto; margin-top: 0;">
+                            Launch Diagnostic Scanner &rarr;
+                        </a>
+                        <a href="contact.html" class="action-btn" style="padding: 14px 22px; font-size: 0.96rem;">
+                            Contact Agronomy Team
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Diagnostics / Help Modal -->
+    <div id="diagnostics-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-card">
+            <div class="modal-header">
+                <div class="modal-title-row">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2" class="modal-icon">
+                        <circle cx="12" cy="12" r="10"/>
+                        <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+                        <line x1="12" y1="17" x2="12.01" y2="17"/>
+                    </svg>
+                    <h3 id="modal-title">AI Engine Architecture &amp; Diagnostics</h3>
+                </div>
+                <button type="button" id="close-modal-btn" class="modal-close" aria-label="Close dialog">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="diag-group">
+                    <h4>Current Runtime Status</h4>
+                    <div id="diag-status-content" class="diag-box">
+                        Checking server and model metrics...
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="modal-ok-btn" class="btn btn-primary-compact">Dismiss</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden" role="status" aria-live="polite">
+        <span id="toast-message">Notification</span>
+    </div>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">🌿 AgriGuard AI</span>
+                <p>Empowering farmers and agronomists with real-time deep learning crop diagnosis.</p>
+            </div>
+            <div class="footer-meta">
+                <div class="footer-nav-links" style="display:flex; gap:16px; margin-bottom:12px;">
+                    <a href="index.html#scanner" class="nav-link" style="padding:4px 8px;">Scanner</a>
+                    <a href="index.html#library" class="nav-link" style="padding:4px 8px;">Pest Library</a>
+                    <a href="about.html" class="nav-link" style="padding:4px 8px;">About Us</a>
+                    <a href="contact.html" class="nav-link" style="padding:4px 8px;">Contact Us</a>
+                </div>
+                <div class="tech-pills">
+                    <span class="tech-pill">Flask 3.0</span>
+                    <span class="tech-pill">Keras 3</span>
+                    <span class="tech-pill">EfficientNetB4</span>
+                    <span class="tech-pill">GitHub Pages Ready</span>
+                </div>
+                <p class="copyright">&copy; 2026 AgriGuard AI &bull; Precision Agricultural Defense System</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
